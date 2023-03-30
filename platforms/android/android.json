@@ -1,0 +1,75 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"NavigationBar\"><param name=\"android-package\" value=\"com.cranberrygame.cordova.plugin.navigationbar.NavigationBar\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"SplashScreen\"><param name=\"android-package\" value=\"org.apache.cordova.splashscreen.SplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<feature name=\"StatusBar\"><param name=\"android-package\" value=\"org.apache.cordova.statusbar.StatusBar\" /><param name=\"onload\" value=\"true\" /></feature>",
+              "count": 1
+            },
+            {
+              "xml": "<preference name=\"StatusBarOverlaysWebView\" value=\"true\" />",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-navigationbar": {
+      "PACKAGE_NAME": "com.riskyjumper.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.riskyjumper.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.riskyjumper.app"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-navigationbar.navigationbar",
+      "file": "plugins/cordova-plugin-navigationbar/www/navigationbar.js",
+      "pluginId": "cordova-plugin-navigationbar",
+      "clobbers": [
+        "window.navigationbar"
+      ]
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
+    },
+    {
+      "id": "cordova-plugin-statusbar.statusbar",
+      "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+      "pluginId": "cordova-plugin-statusbar",
+      "clobbers": [
+        "window.StatusBar"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-navigationbar": "1.0.31",
+    "cordova-plugin-splashscreen": "5.0.3-dev",
+    "cordova-plugin-statusbar": "3.0.0"
+  }
+}

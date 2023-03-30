@@ -1,0 +1,26 @@
+{
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-navigationbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-navigationbar@^1.0.31"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/apache/cordova-plugin-splashscreen.git#pull/137/head"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.example.myapp"
+    },
+    "cordova-plugin-navigationbar": {
+      "PACKAGE_NAME": "com.example.myapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.example.myapp"
+    }
+  },
+  "dependent_plugins": {}
+}
