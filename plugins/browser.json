@@ -7,14 +7,14 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "com.example.myapp"
-    },
     "cordova-plugin-navigationbar": {
-      "PACKAGE_NAME": "com.example.myapp"
+      "PACKAGE_NAME": "com.riskyjumper.app"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.example.myapp"
+      "PACKAGE_NAME": "com.riskyjumper.app"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.riskyjumper.app"
     }
   },
   "dependent_plugins": {}

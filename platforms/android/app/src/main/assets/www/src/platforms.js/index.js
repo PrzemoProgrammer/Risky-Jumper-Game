@@ -49,11 +49,11 @@ const domino_theme = {
 const platformThemes = [
   ground_theme,
   castle_theme,
-  wood_theme,
-  pastel_theme,
-  red_theme,
-  winter_theme,
   chocolate_theme,
+  wood_theme,
+  red_theme,
+  pastel_theme,
+  winter_theme,
   purple_theme,
   domino_theme,
 ];

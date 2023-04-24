@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.riskyjumper.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets"  xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>RiskyJumper</name>
+    <name>Risky Jumper</name>
     <description>Sample Apache Cordova App</description>
     <author email="dev@cordova.apache.org" href="https://cordova.apache.org">
         Apache Cordova Team
@@ -9,18 +9,15 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
 
-    <preference name="StatusBarBackgroundColor" value="#503af5" />
-
+    <preference name="StatusBarBackgroundColor" value="#0195b7" />
+<!-- <preference name="SplashScreenScale" value="centerCrop" /> -->
 <preference name="ShowSplashScreenSpinner" value="false"/>
+<preference name="SplashMaintainAspectRatio" value="true"/>
+<preference name="SplashShowOnlyFirstTime" value="true"/>
+<!-- 
+<preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screen/android/splash-square.png"/>
+<preference name="AndroidWindowSplashScreenBackground" value="#ffffff"/> -->
        <platform name="android">
-<!-- <preference name="android-targetSdkVersion" value="31" /> -->
-<!-- <preference name="android-minSdkVersion" value="31" /> -->
-
-
-<!-- <preference name="android-minSdkVersion" value="22" />
-<preference name="android-targetSdkVersion" value="31" />
-<preference name="android-compileSdkVersion" value="31" /> -->
-<preference name="android-compileSdkVersion" value="31" />
 
       <icon src="res/icon/android/ldpi.png" density="ldpi" />
       <icon src="res/icon/android/mdpi.png" density="mdpi" />
@@ -35,6 +32,7 @@
     <splash src="res/screen/android/screenxhdpi.png" density="xhdpi" />
     <splash src="res/screen/android/screenxxhdpi.png" density="xxhdpi" />
     <splash src="res/screen/android/screenxxxhdpi.png" density="xxxhdpi" />
+
     <splash src="res/screen/android/screen-land.png" density="land-ldpi" />
     <splash src="res/screen/android/screen-land.png" density="land-mdpi" />
     <splash src="res/screen/android/screen-land.png" density="land-hdpi" />

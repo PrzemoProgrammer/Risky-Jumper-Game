@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Risky Jumper",
+  "short_name": "Risky Jumper",
+  "version": "com.riskyjumper.app",
+  "description": "Sample Apache Cordova App",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#0195b7"
+}

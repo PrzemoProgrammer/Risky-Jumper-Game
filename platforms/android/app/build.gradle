@@ -185,10 +185,10 @@ android {
 
         minSdkVersion cordovaConfig.MIN_SDK_VERSION
         if (cordovaConfig.MAX_SDK_VERSION != null) {
-            maxSdkVersion cordovaConfig.MAX_SDK_VERSION
+            maxSdkVersion 33
         }
-        targetSdkVersion cordovaConfig.SDK_VERSION
-        compileSdkVersion cordovaConfig.SDK_VERSION
+        targetSdkVersion 33
+        compileSdkVersion 30
     }
 
     lintOptions {

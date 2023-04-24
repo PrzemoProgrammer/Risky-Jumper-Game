@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="SplashScreenStyle">   
-      <item name="android:statusBarColor">#503af5</item>
-        <item name="android:navigationBarColor">#503af5</item> 
-          <item name="android:windowLightStatusBar">false</item> 
+      <item name="android:statusBarColor">#0195b7</item>
+        <item name="android:navigationBarColor">#000000</item> 
+          <item name="android:windowLightStatusBar">false</item>
+
     </style>
 </resources>
