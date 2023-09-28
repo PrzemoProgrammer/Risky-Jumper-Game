@@ -8,5 +8,7 @@
 * 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀 library used,
 * 𝗠𝗼𝗻𝗴𝗼𝗱𝗯 database used
 
+𝐆𝐨𝐨𝐥𝐞𝐏𝐥𝐚𝐲 𝐥𝐢𝐧𝐤: https://play.google.com/store/apps/details?id=com.riskyjumper.app
+
 <img align="right" alt="coding" src="https://i.ytimg.com/vi/zPRiNFE4dPk/maxresdefault.jpg">
 
