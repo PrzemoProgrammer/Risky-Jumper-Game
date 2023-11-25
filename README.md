@@ -1,4 +1,4 @@
-<img align="right" alt="coding" src="https://images.g2a.com/360x600/1x1x1/google-play-gift-card-50-pln-poland-i10000001041059/59e5ed055bafe3e2767344e0" width="200" height="auto">
+<img align="right" alt="coding" src="https://pics.paypal.com/00/c/gifts/us/gpinc.png" width="350" height="auto">
 
 # Android Game Risky Jumper
 
